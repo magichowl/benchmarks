@@ -1,0 +1,10 @@
+32003 8 2 component 1 1 1 1 1 1 1 1
+8
+a+b+c+d+e+f+g+h
+ab+bc+cd+de+ef+fg+gh+ha
+abc+bcd+cde+def+efg+fgh+gha+hab
+abcd+bcde+cdef+defg+efgh+fgha+ghab+habc
+abcde+bcdef+cdefg+defgh+efgha+fghab+ghabc+habcd
+abcdef+bcdefg+cdefgh+defgha+efghab+fghabc+ghabcd+habcde
+abcdefg+bcdefgh+cdefgha+defghab+efghabc+fghabcd+ghabcde+habcdef
+abcdefgh-1

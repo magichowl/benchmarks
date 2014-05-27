@@ -1,0 +1,57 @@
+
+* -- stats: -- 
+ module order type: Schreyer order 
+ strategy: signature-postpone-basediv
+ reduction type: Geobucket(b4m8i1 tf db)-hashed
+ divisor tab type: KDTree(packed) leaf:1 autob:0.5/50 tree-dmask cache
+ reduce S-pairs  one by one. 
+ syzygy tab type: KDTree(packed) leaf:1 autob:0.5/50 tree-dmask cache no-removals
+ S-pair queue type: todo
+ J-pair selection type: select J-pair of minimal signature
+ rewriter type: newest divisor
+ total compute time:  46.355 -- seconds
+*** Summary of memory use ***
+  Grobner basis:          49.5MB  18.8%
+  S-pairs:               691.2kB   0.3%
+    Known syzygy bits:   164.7kB       
+  Minimal syzygies:      176.7kB   0.1%
+  Koszul queue:           32.0kB   0.0%
+  Reducer:               212.7MB  80.9%
+  Signatures:                 0B   0.0%
+  -------------                        
+  Memory used in total:  263.0MB       
+*** Some of the statistics ***
+ Time spent:              46.357s 40.4 ms per basis element     
+ Basis elements:            1,147 0.0 Sp pend per basis ele     
+ Terms for basis:         527,453 459.9 terms per basis ele     
+ Minimum lead terms:          320 27.9% basis ele have min lead 
+ Index of last min lead:    1,143 0.3% of basis added since then
+ Minimal syzygies:            686 0.6 syzygies per basis element
+ Queued Koszul syzygies:        7 0.0 queued koszuls per msyzygy
+ S-pairs considered:      657,231                               
+ S-pairs not early elim:  114,153 17.4% of considered           
+ Syz module S-pair elim:  242,036 36.8% of considered           
+ Low bdiv S-pair elim:    207,446 31.6% of considered           
+ High bdiv S-pair elim:    93,596 14.2% of considered           
+ Basis ele had low bdiv:    1,137 99.1% of basis ele            
+ Basis ele had high bdiv:     731 63.7% of basis ele            
+ S-pairs pending:               0 0.0% of considered            
+ S pairs done:            108,388 94.9% of not early elim       
+ S pair sigs done:         24,799 4.4 spairs per signature      
+*** Paper Statistics ***
+ S-pairs considered:                               657,231 
+ Total reduction steps:                          5,327,959 
+ Removed via non-regular criterion:                  5,775 
+ Removed via high base divisor:                     93,596 
+ Removed via low base divisor:                     207,446 
+ Removed via signature criterion (early):          242,036 
+ Removed via relatively prime criterion (early):         0 
+ Removed via rewritten criterion (early):                0 
+ Number of queued pairs:                           108,378 
+ Removed via duplicate signature:                   83,589 
+ Removed via syzygy criterion (late):               19,814 
+ Removed via rewrite criterion (late):              20,105 
+ Removed via Koszul criterion (late):                  212 
+ Removed via relatively prime criterion (late):         60 
+ Reduced to zero:                                      414 
+ Removed via sig-redundant criterion in basis:           0 
